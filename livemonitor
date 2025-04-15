@@ -1,0 +1,10 @@
+### add this to a directory that's setup in your PATH to add a command to run the live monitor
+### replace /PATH/TO/live-monitor with the path to the live-monitor directory
+### requires uv to be installed
+
+
+#!/bin/bash
+PROJECT_DIR="/PATH/TO/live-monitor"
+cd "$PROJECT_DIR" || exit 1 # Exit if cd fails
+# Assuming uv is in the PATH
+uv run main.py

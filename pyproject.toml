@@ -1,0 +1,10 @@
+[project]
+name = "live-monitor"
+version = "0.1.0"
+description = "A simple live terminal monitor for system stats"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "psutil>=7.0.0",
+    "rich>=14.0.0",
+]
