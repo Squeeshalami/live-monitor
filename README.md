@@ -2,7 +2,7 @@
 
 A simple live terminal monitor for system stats using `psutil` and `rich`.
 
-This Project uses UV by defeault for simplest usage please Install 
+This Project uses UV by default for simplest usage please Install 
 UV: https://docs.astral.sh/uv/getting-started/installation/
 
 ## Installation
